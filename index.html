@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="scrimba, html, css, javascript, password generator, bulldogs">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">    
+    <title>Bailey's Super Secret Password Generator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="showcase">
+            <div class="header">                
+                    <h2><span class="special">Bailey's</span> <img class="logo" src="/images/Baileyfetch.jpg" alt="bulldog fetching a toy bone"> Fetch</h2>
+                    <div class="info">                
+                <div class="title top">                
+                        <h1>Generate a
+                        <span class="special">random password</span></h1>
+                        <p>Never use an insecure password again.<br> <span class="special txt-bold">Fetch</span> 8 characters or 15 characters/ 15 Letters & Numbers</p>
+                        <button class="btn" onclick="genPassWord()">Click for Passwords</button>
+                    </div>
+                </div>                
+            </div>  
+            <div class="break"></div>
+            <div class="bottom">
+                <p class="data" id="eightChar-el"></p>
+                <p class="data" id="fifteenChar-el">12ABab$@~/.]&^~</p>
+                <p class="data" id="lettersNums-el">12ABab/>*+#901</p>               
+            </div>            
+        </div> <!-- showcase -->    
+    </div> <!-- container -->
+    <div class="footer">
+        Copyright &copy; 2023 Pennington Programming 
+        <a href="https://twitter.com/"> <i class="fa-brands fa-square-twitter"></i> @EmmettPenn23</a>
+    </div>    
+    <script src="js/main.js"></script>
+</body>
+</html>
